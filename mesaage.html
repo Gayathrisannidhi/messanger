@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="messanger.css">
     
 </head>
 <body>
-    <div class="container">
-        <h1> TEXT THE MESSAGE</h1>
 
+    
 
-    </div>
-    <label> Enter a message: </label>
-    <label>  </label>
-    <input type="text" id="msg-ip" placeholder="Enter a message">
-    <button id="click" onclick="getMessage()"> Submit</button>
-    <p id="msg-op"></p>
+        <div class="container">
+            <h1> TEXT THE MESSAGE</h1> 
+            <div class="box">
+                       <label > Enter a message: </label>
+                        <label>  </label>
+                        <textarea  id="msg-ip" name="textarea" rows="8" cols="50"  style="text-align: center; justify-content: center;width: 500px; ; " >  </textarea>     <br> <br> <br> <br> <br>
+                       <button id="click" onclick="getMessage()" style="margin-left: 150px;"> SUBMIT</button>
+                       <p id="msg-op"></p>
+            </div>
+        </div>
+        
+        
 
-    <script src="message.js" ></script>
+    
+
+    <script src="messanger.js" ></script>
 </body>
 </html>
