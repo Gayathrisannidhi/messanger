@@ -1,0 +1,53 @@
+body{
+    padding: 10px;
+    background-image: url(multicolor.jpg);
+    background-size: cover;
+
+}
+.container {
+    background-image: url(multipack.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 300px;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    background-color: #6699cc;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: 5px solid black;
+    
+    text-align: center
+  }
+  .box label{
+    border: none;
+    padding: 15px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+
+  }
+  
+
+  button{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(44, 44, 44);
+    background-color: lightcoral;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: black;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#fbc2eb 0%, #a6c1ee 51%,#fbc2eb 100%);
+
+    
+  }
+  
